@@ -1,0 +1,40 @@
+{
+  "name": "string-factory",
+  "description": "A utility library for working with strings.",
+  "author": {
+    "name": "sandypockets",
+    "url": "https://sandypockets.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/sandypockets/string-factory/issues"
+  },
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "node esbuild.js",
+    "lint": "eslint ./src && prettier ./src --write",
+    "test": "yarn lint && yarn build && jest --coverage",
+    "new": "node ./scripts/createNewFunctionFiles.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "babel-loader": "^8.2.3",
+    "esbuild": "^0.14.25",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.29.4",
+    "jest": "^27.5.1",
+    "prettier": "2.5.1"
+  },
+  "homepage": "https://string-factory.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandypockets/string-factory.git"
+  },
+  "keywords": [
+    "string",
+    "string-parser"
+  ]
+}

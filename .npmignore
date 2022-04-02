@@ -1,0 +1,13 @@
+esbuild.js
+src/*/*.test.js
+coverage/
+.idea/
+node_modules/
+src/
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc.json
+docs
+scripts
+.github/
