@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/sandypockets/string-factory/issues"
   },
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",

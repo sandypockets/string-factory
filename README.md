@@ -8,4 +8,11 @@ A utility library for working with strings.
 
 - `sentenceCase()`
 - `upCase()`
+- `downCase()`
+- `kebabCase()`
+- `snakeCase()`
+- `snakeToCamel()`
+- `snakeToKebab()`
+- `camelToSnake()`
+- `camelCase()`
 
