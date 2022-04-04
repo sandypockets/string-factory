@@ -5,7 +5,7 @@ const args = process.argv.slice(2);
 
 function writeNewDocumentation() {
   const markdownContent = `---
-sidebar_label: ${args[0]}
+sidebar_label: ${args[0]}()
 ---
 
 # \`${args[0]}\`

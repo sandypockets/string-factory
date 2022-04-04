@@ -1,11 +1,22 @@
 export { upCase } from "./upCase/upCase";
-export { sentenceCase } from "./sentenceCase/sentenceCase";
 export { downCase } from "./downCase/downCase";
+export { camelCase } from "./camelCase/camelCase";
+export { camelToSnake } from "./camelToSnake/camelToSnake";
+export { camelToKebab } from "./camelToKebab/camelToKebab";
+export { camelToPascal } from "./camelToPascal/camelToPascal";
+export { kebabCase } from "./kebabCase/kebabCase";
+export { kebabToCamel } from "./kebabToCamel/kebabToCamel";
+export { kebabToSnake } from "./kebabToSnake/kebabToSnake";
+export { kebabToPascal } from "./kebabToPascal/kebabToPascal";
+export { pascalCase } from "./pascalCase/pascalCase";
+export { pascalToCamel } from "./pascalToCamel/pascalToCamel";
+export { pascalToKebab } from "./pascalToKebab/pascalToKebab";
+export { sentenceCase } from "./sentenceCase/sentenceCase";
 export { snakeCase } from "./snakeCase/snakeCase";
 export { snakeToCamel } from "./snakeToCamel/snakeToCamel";
-export { camelToSnake } from "./camelToSnake/camelToSnake";
-export { camelCase } from "./camelCase/camelCase";
-
 export { snakeToKebab } from "./snakeToKebab/snakeToKebab";
+export { snakeToPascal } from "./snakeToPascal/snakeToPascal";
+export { titleCase } from "./titleCase/titleCase";
+export { pascalToSnake } from "./pascalToSnake/pascalToSnake";
 
-export { kebabCase } from "./kebabCase/kebabCase";
+export { sarcasm } from "./sarcasm/sarcasm";

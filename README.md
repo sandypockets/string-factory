@@ -6,13 +6,25 @@ A utility library for working with strings.
 
 ## Available functions
 
+- `camelCase()`
+- `camelToKebab()`
+- `camelToPascal()`
+- `camelToSnake()`
 - `sentenceCase()`
 - `upCase()`
 - `downCase()`
 - `kebabCase()`
+- `kebabToCamel()`
+- `kebabToPascal()`
+- `kebabToSnake()`
 - `snakeCase()`
 - `snakeToCamel()`
 - `snakeToKebab()`
-- `camelToSnake()`
-- `camelCase()`
+- `snakeToPascal()`
+- `pascalCase()`
+- `titleCase()`
+- `pascalToCamel()`
+- `pascalToKebab()`
+- `pascalToSnake()`
+- `sarcasm()`
 
