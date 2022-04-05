@@ -1,7 +1,8 @@
 # String Factory
-A utility library for working with strings. 
+A small utility library for working with strings. 
 
 [![License: MIT](https://img.shields.io/npm/l/string-factory?color=1eb319)](LICENSE.md)
+[![npm version](https://img.shields.io/npm/v/string-factory?color=1eb319)](https://www.npmjs.com/package/string-factory)
 [![sponsor project](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/sandypockets)
 
 ## Available functions
@@ -27,4 +28,9 @@ A utility library for working with strings.
 - `pascalToKebab()`
 - `pascalToSnake()`
 - `sarcasm()`
+- `vaporize()`
+- `truncate()`
+- `unescape()`
+- `escape()`
+- `escapeBase()`
 

@@ -18,5 +18,9 @@ export { snakeToKebab } from "./snakeToKebab/snakeToKebab";
 export { snakeToPascal } from "./snakeToPascal/snakeToPascal";
 export { titleCase } from "./titleCase/titleCase";
 export { pascalToSnake } from "./pascalToSnake/pascalToSnake";
-
 export { sarcasm } from "./sarcasm/sarcasm";
+export { vaporize } from "./vaporize/vaporize";
+export { truncate } from "./truncate/truncate";
+export { unescape } from "./unescape/unescape";
+export { escape } from "./escape/escape";
+export { escapeBase } from "./escapeBase/escapeBase";
