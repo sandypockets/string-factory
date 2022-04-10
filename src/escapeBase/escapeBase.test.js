@@ -18,6 +18,13 @@ test("escapeBases html", () => {
   expect(escapeBase("$")).toBe("$");
   expect(escapeBase("_")).toBe("_");
   expect(escapeBase("\\")).toBe("\\");
+  expect(escapeBase("`")).toBe("`");
+  expect(escapeBase("{")).toBe("{");
+  expect(escapeBase("}")).toBe("}");
+  expect(escapeBase("|")).toBe("|");
+  expect(escapeBase("~")).toBe("~");
+  expect(escapeBase("<")).toBe("&lt;");
+  expect(escapeBase(">")).toBe("&gt;");
 });
 
 test("throws an error if input is not a string", () => {
