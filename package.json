@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/sandypockets/string-factory/issues"
   },
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
@@ -32,9 +32,15 @@
     "type": "git",
     "url": "https://github.com/sandypockets/string-factory.git"
   },
+  "homepage": "https://string-factory.dev/docs/functions",
   "keywords": [
     "string",
     "string-parser",
-    "utility"
+    "utility",
+    "string-manipulation",
+    "string-formatter",
+    "strings",
+    "case",
+    "converter"
   ]
 }
