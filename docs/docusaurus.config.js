@@ -24,7 +24,7 @@ const config = {
 
       ({
         gtag: {
-          trackingID: 'G-E8WTXEM46X',
+          trackingID: 'G-XLD52JB83P',
           anonymizeIP: true,
         },
         docs: {
